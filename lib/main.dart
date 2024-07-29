@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sub_dicoding_flutter_pemula/main_screen.dart';
-
-import 'detail_screen.dart';
+import 'package:sub_dicoding_flutter_pemula/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Wisata Bandung',
+      title: 'Football Player',
       theme: ThemeData(),
-      home: const MainScreen(),
+      home: const HomePage(),
     );
   }
 }
